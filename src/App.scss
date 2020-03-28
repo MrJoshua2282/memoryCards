@@ -27,10 +27,12 @@
 .top-section {
   background-color: white;
   width: 75%;
-  height: 17em;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 1em);
+  height: 100%;
+  justify-self: center;
+  margin-top: 1.5rem;
+  //position: absolute;
+  //left: 50%;
+  //transform: translate(-50%, 1em);
 
   display: grid;
   grid-template-columns: 0 40% 10% 40% 0%;
