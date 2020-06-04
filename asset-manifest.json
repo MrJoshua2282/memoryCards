@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/memoryCards/static/css/main.40d2eeba.chunk.css",
-    "main.js": "/memoryCards/static/js/main.7ce83c3a.chunk.js",
-    "main.js.map": "/memoryCards/static/js/main.7ce83c3a.chunk.js.map",
+    "main.js": "/memoryCards/static/js/main.e7387952.chunk.js",
+    "main.js.map": "/memoryCards/static/js/main.e7387952.chunk.js.map",
     "runtime-main.js": "/memoryCards/static/js/runtime-main.df82d5bc.js",
     "runtime-main.js.map": "/memoryCards/static/js/runtime-main.df82d5bc.js.map",
     "static/js/2.1771b65f.chunk.js": "/memoryCards/static/js/2.1771b65f.chunk.js",
     "static/js/2.1771b65f.chunk.js.map": "/memoryCards/static/js/2.1771b65f.chunk.js.map",
     "index.html": "/memoryCards/index.html",
-    "precache-manifest.62579be1c9b5cdcf4e2756622f27bf93.js": "/memoryCards/precache-manifest.62579be1c9b5cdcf4e2756622f27bf93.js",
+    "precache-manifest.2a1ae314f51a98c770bec933bd4114cb.js": "/memoryCards/precache-manifest.2a1ae314f51a98c770bec933bd4114cb.js",
     "service-worker.js": "/memoryCards/service-worker.js",
     "static/css/main.40d2eeba.chunk.css.map": "/memoryCards/static/css/main.40d2eeba.chunk.css.map",
     "static/js/2.1771b65f.chunk.js.LICENSE.txt": "/memoryCards/static/js/2.1771b65f.chunk.js.LICENSE.txt",
@@ -70,6 +70,6 @@
     "static/js/runtime-main.df82d5bc.js",
     "static/js/2.1771b65f.chunk.js",
     "static/css/main.40d2eeba.chunk.css",
-    "static/js/main.7ce83c3a.chunk.js"
+    "static/js/main.e7387952.chunk.js"
   ]
 }
