@@ -6,14 +6,11 @@
 }
 
 .App {
-  height: 150vh;
+  height: max-content;
   width: 100%;
   background: linear-gradient(0.25turn, #C6FFDD, #FBD786, #f7797d);
+  padding: 3rem 0;
   position: relative;
-
-  display: grid;
-  row-gap: 3em;
-  grid-template-rows: 30vh 100vh;
 }
 
   .newGame,
@@ -27,28 +24,23 @@
 .top-section {
   background-color: white;
   width: 75%;
-  height: 100%;
+  height: min-content;
   justify-self: center;
-  margin-top: 1.5rem;
-  //position: absolute;
-  //left: 50%;
-  //transform: translate(-50%, 1em);
+  padding-top: 1rem;
+  margin: 0 12.25% 3rem 12.25%;
 
   display: grid;
-  grid-template-columns: 0 40% 10% 40% 0%;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-content: center;
 }
 
 .top-middle {
-  grid-column: 3 / span 1;
 
-  display: grid;
-  align-content: center;
 }
 
 .options {
-  padding: 3em;
+ 
 }
 
 .newGame {
@@ -67,36 +59,11 @@
   }
 }
 
-.left,
-.right {
-  display: grid;
-  justify-items: center;
-}
-
-.player1,
-.player2 {
-  font-size: 3em;
-  font-weight: 100;
-  font-family: fantasy;
-
-  display: grid;
-  justify-items: center;
-}
-
-.left {
-  grid-column: 2 / span 1;
-}
-
-.right {
-  grid-column: 4 / span 1;
-}
-
 i {
   font-size: 5em;  
 }
 
 .bottom {
-  grid-row: 2/3;
   display: grid;
   grid-template-rows: repeat(auto-fit, 12em);
   grid-template-columns: repeat(auto-fit, 8em);
@@ -109,8 +76,9 @@ i {
 
 .card {
   width: 4em;
+  height: 8rem;
   position: relative;
-  padding: 2em;
+  padding: 2rem;
 
   display: grid;  
 
@@ -132,35 +100,35 @@ i {
   opacity: .75;
 }
 
-@media (max-width: 900px) {
-  .App {
-    height: 200vh;
-    grid-template-rows: 22vh 150vh;
-  }
-}
+// @media (max-width: 900px) {
+//   .App {
+//     height: 200vh;
+//     grid-template-rows: 22vh 150vh;
+//   }
+// }
 
-@media (max-width: 600px) {
-  .App {
-    height: 300vh;
-    grid-template-rows: 22vh 250vh;
-  }
-}
+// @media (max-width: 600px) {
+//   .App {
+//     height: 300vh;
+//     grid-template-rows: 22vh 250vh;
+//   }
+// }
 
-@media (max-width: 500px) {
-  .newGame,
-  .left,
-  .right {
-   transform: scale(.75);
-  }
-}
+// @media (max-width: 500px) {
+//   .newGame,
+//   .left,
+//   .right {
+//    transform: scale(.75);
+//   }
+// }
 
-@media (max-width: 400px) {
-  .App {
-    height: 500vh;
-    grid-template-rows: 22vh 500vh;
-  }
+// @media (max-width: 400px) {
+//   .App {
+//     height: 500vh;
+//     grid-template-rows: 22vh 500vh;
+//   }
 
-  .top-section {
-    width: 100%;
-  }
-}
+  // .top-section {
+  //   width: 100%;
+  // }
+// }
